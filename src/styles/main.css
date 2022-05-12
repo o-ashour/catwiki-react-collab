@@ -1,6 +1,10 @@
 :root {
-  --color-primary: #00a8ff;
-  --color-secondary: #fff;
+  --color-primary: #fff;
+  --color-secondary-1: #040608;
+  --color-secondary-2: #e3e1dc;
+  --color-accent-1: #7f736a;
+  --color-accent-2: #544439;
+  --color-accent-3: #e0e0e0;
 }
 
 /* utitlity classes goes here  */
