@@ -2,7 +2,7 @@
 
 :root {
   /* variables for colors */
-  --color-primary: #fff;
+  --color-white: #fff;
   --color-secondary-1: #040608;
   --color-secondary-2: #e3e1dc;
   --color-accent-1: #7f736a;
@@ -13,4 +13,12 @@
   --ff-body: 'Montserrat', sans-serif;
 }
 
-/* utitlity classes goes here  */
+html {
+  font-size: 62.5%; /* 1rem = 16px */
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--ff-body);
+  font-size: 1.6rem;
+}
