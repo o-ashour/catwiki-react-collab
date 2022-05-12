@@ -4,7 +4,9 @@ import {QueryClient, QueryClientProvider} from 'react-query'
 import {ReactQueryDevtools} from 'react-query/devtools'
 import './styles/main.css'
 import './styles/reset.css'
+// import search icon from React Icons
 import {BiSearchAlt2} from "react-icons/bi"
+// import right arrow icon from React Icons
 import {MdArrowRightAlt} from "react-icons/md"
 
 import App from './App'
