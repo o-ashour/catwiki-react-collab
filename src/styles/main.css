@@ -13,4 +13,12 @@
   --ff-body: 'Montserrat', sans-serif;
 }
 
-/* utitlity classes goes here  */
+html {
+  font-size: 62.5%; /* 1rem = 16px */
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--ff-body);
+  font-size: 1rem;
+}
