@@ -1,19 +1,19 @@
 import {Container} from 'components/shared'
-import {Home, Notfound} from 'pages'
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import {BrowserRouter} from 'react-router-dom'
+import Router from 'routes'
+import {Suspense} from 'react'
 
 import {Logo} from 'components'
 
 export default function App() {
   return (
-    <Container MaxWidth="1280px">
-      <Router>
-        <Logo />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="*" element={<Notfound />} />
-        </Routes>
-      </Router>
-    </Container>
+    <Suspense fallback={<div>Loading...</div>}>
+      <Container MaxWidth="1280px">
+        <BrowserRouter>
+          <Logo />
+          <Router />
+        </BrowserRouter>
+      </Container>
+    </Suspense>
   )
 }
